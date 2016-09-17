@@ -1,0 +1,110 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    width:100%;
+}
+
+canvas{
+    margin-top:-5px;
+    width:1000px;
+    height:800px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#ee0fea;
+}
+
+.MainDiv{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+p{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    font-size:30px;
+}
+
+.FlexRowDIV
+{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    flex-direction:row;
+}
+
+input:hover
+{
+    cursor:pointer;
+}
+
+#PlayerVsPlayerButton
+{
+    background-color:green;
+    color:white;
+}
+
+#PlayerVsAiButton
+{
+    background-color:red;
+    color:yellow;
+}
+
+#GameFinishButton
+{
+    background-color:blue;
+    color:white;
+    margin-top: 20px;
+    display:none;
+    opacity:0.0;
+}
+
+#GamePauseButton
+{
+    background-color:red;
+    color:white;
+    width:200px;
+    margin-top: 20px;
+    display:none;
+    opacity:0.0;
+}
+
+.center-block
+{
+    font-size: 30px;
+}
+
+#PLeftPlayerScore
+{
+    margin-right:30px;
+}
+
+#PRightPlayerScore
+{
+    margin-left:30px;
+}
+
+#PLeftPlayerBonus
+{
+    float:left;
+    width:300px;
+}
+
+#PRightPlayerBonus
+{
+    float:right;
+    width:300px;
+}
+
+#DivWithScore
+{
+    width:100%;
+}
